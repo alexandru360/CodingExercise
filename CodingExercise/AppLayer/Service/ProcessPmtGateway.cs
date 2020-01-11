@@ -67,7 +67,10 @@ namespace CodingExercise.AppLayer
                 }
 
                 oRet = pmt;
-                oRet.PaymentState.PmntState = ProcState.processed;
+                if(success)
+                    oRet.PaymentState.PmntState = ProcState.processed;
+                else
+                    oRet.PaymentState.PmntState = ProcState.failed;
             }
             catch (Exception ex)
             {

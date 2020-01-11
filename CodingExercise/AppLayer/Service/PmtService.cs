@@ -31,7 +31,7 @@ namespace CodingExercise.AppLayer
 
         public ProcessPayment Create(ProcessPayment pmt)
         {
-            if (_pmtGate.PmtProcess(pmt).PaymentState.PmntState != ProcState.failed)
+            if (_pmtGate.PmtProcess(pmt).PaymentState.PmntState.Equals(ProcState.processed))
             {
                 _context.ProcessPayments.Add(pmt);
                 _context.SaveChanges();
