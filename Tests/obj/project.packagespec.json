@@ -15,7 +15,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\CodingExercise\\CodingExercise.csproj": {
+            "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\CodingExercise\\CodingExercise.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -27,9 +31,17 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "Microsoft.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
           "version": "[16.2.0, )"
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.13.1, )"
         },
         "NUnit3TestAdapter": {
           "target": "Package",
@@ -51,6 +63,9 @@
       "assetTargetFallback": true,
       "warn": true,
       "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
         "Microsoft.NETCore.App": {
           "privateAssets": "all"
         }

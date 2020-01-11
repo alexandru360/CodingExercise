@@ -21,8 +21,6 @@
             <e p="ProcessPaymentModel.cs" t="Include" />
           </e>
           <e p="Service" t="Include">
-            <e p="CheapPaymentGateway.cs" t="Include" />
-            <e p="ExpensivePaymentGateway.cs" t="Include" />
             <e p="PmtService.cs" t="Include" />
             <e p="ProcessPmtGateway.cs" t="Include" />
           </e>
@@ -31,8 +29,6 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="coding-exercise.db" t="Include" />
-        <e p="coding-exercise.db-shm" t="Include" />
-        <e p="coding-exercise.db-wal" t="Include" />
         <e p="CodingExercise.csproj" t="IncludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="ProcessPaymentController.cs" t="Include" />
@@ -65,6 +61,22 @@
       </e>
       <e p="CodingExercise.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="ServicePayments" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CheapPaymentGateway.cs" t="Include" />
+        <e p="ExpensivePaymentGateway.cs" t="Include" />
+        <e p="IAbstractPmtFactory.cs" t="Include" />
+        <e p="IAbstractPmtGateway.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="ServicePayments.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PremiumPayment.cs" t="Include" />
+        <e p="ServicePayments.csproj" t="IncludeRecursive" />
+      </e>
       <e p="Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -75,7 +87,7 @@
           </e>
         </e>
         <e p="Tests.csproj" t="IncludeRecursive" />
-        <e p="UnitTest1.cs" t="Include" />
+        <e p="UnitTest.cs" t="Include" />
       </e>
     </e>
   </component>

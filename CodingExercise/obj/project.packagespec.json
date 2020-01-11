@@ -15,7 +15,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\ServicePayments\\ServicePayments.csproj": {
+            "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\ServicePayments\\ServicePayments.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
