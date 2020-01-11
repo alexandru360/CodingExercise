@@ -15,12 +15,12 @@ namespace CodingExercise.AppLayer
     public class PmtService : IPmtService
     {
         private DataContext _context;
-        private ProcessPmtGateway _pmtGate;
+        private IProcessPmtGateway _pmtGate;
         private IProcessPmtGateway _processPmtGate;
 
         public PmtService(
-            DataContext context, 
-            ProcessPmtGateway pmtGate,
+            DataContext context,
+            IProcessPmtGateway pmtGate,
             IProcessPmtGateway processPmtGate
             )
         {

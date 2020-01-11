@@ -5210,23 +5210,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexa\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Alex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_GitGameSaves\\CodingExercise\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "E:\\_GitGameSaves\\CodingExercise\\Tests\\Tests.csproj",
-      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "E:\\_GitGameSaves\\CodingExercise\\Tests\\obj\\",
+      "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+*.ide
+.vs/CodingExercise/v16/Server/sqlite3/storage.ide
+.vs/CodingExercise/v16/.suo
+.vs/CodingExercise/DesignTimeBuild/.dtbcache
+*.ide

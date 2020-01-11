@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\_GitGameSaves\\CodingExercise\\CodingExercise\\CodingExercise.csproj": {}
+    "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\CodingExercise\\CodingExercise.csproj": {}
   },
   "projects": {
-    "E:\\_GitGameSaves\\CodingExercise\\CodingExercise\\CodingExercise.csproj": {
+    "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\CodingExercise\\CodingExercise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_GitGameSaves\\CodingExercise\\CodingExercise\\CodingExercise.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\CodingExercise\\CodingExercise.csproj",
         "projectName": "CodingExercise",
-        "projectPath": "E:\\_GitGameSaves\\CodingExercise\\CodingExercise\\CodingExercise.csproj",
-        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "E:\\_GitGameSaves\\CodingExercise\\CodingExercise\\obj\\",
+        "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\CodingExercise\\CodingExercise.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\CodingExercise\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
