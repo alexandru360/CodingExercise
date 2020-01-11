@@ -1,0 +1,7 @@
+C:\Users\Alex\Documents\GitHub\CodingExercise\ServicePayments\bin\Debug\netstandard2.0\ServicePayments.deps.json
+C:\Users\Alex\Documents\GitHub\CodingExercise\ServicePayments\bin\Debug\netstandard2.0\ServicePayments.dll
+C:\Users\Alex\Documents\GitHub\CodingExercise\ServicePayments\bin\Debug\netstandard2.0\ServicePayments.pdb
+C:\Users\Alex\Documents\GitHub\CodingExercise\ServicePayments\obj\Debug\netstandard2.0\ServicePayments.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\GitHub\CodingExercise\ServicePayments\obj\Debug\netstandard2.0\ServicePayments.AssemblyInfo.cs
+C:\Users\Alex\Documents\GitHub\CodingExercise\ServicePayments\obj\Debug\netstandard2.0\ServicePayments.dll
+C:\Users\Alex\Documents\GitHub\CodingExercise\ServicePayments\obj\Debug\netstandard2.0\ServicePayments.pdb

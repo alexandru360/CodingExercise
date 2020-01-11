@@ -89,6 +89,8 @@ C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\bin\Debug\netcoreap
 C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\bin\Debug\netcoreapp3.1\ServicePayments.dll
+C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\bin\Debug\netcoreapp3.1\ServicePayments.pdb
 C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\obj\Debug\netcoreapp3.1\CodingExercise.csprojAssemblyReference.cache
 C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\obj\Debug\netcoreapp3.1\staticwebassets\CodingExercise.StaticWebAssets.Manifest.cache
 C:\Users\Alex\Documents\GitHub\CodingExercise\CodingExercise\obj\Debug\netcoreapp3.1\staticwebassets\CodingExercise.StaticWebAssets.xml

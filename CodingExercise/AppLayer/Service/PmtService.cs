@@ -16,17 +16,14 @@ namespace CodingExercise.AppLayer
     {
         private DataContext _context;
         private IProcessPmtGateway _pmtGate;
-        private IProcessPmtGateway _processPmtGate;
 
         public PmtService(
             DataContext context,
-            IProcessPmtGateway pmtGate,
-            IProcessPmtGateway processPmtGate
+            IProcessPmtGateway pmtGate
             )
         {
             _context = context;
             _pmtGate = pmtGate;
-            _processPmtGate = processPmtGate;
         }
 
         public ProcessPayment Create(ProcessPayment pmt)

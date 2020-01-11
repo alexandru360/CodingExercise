@@ -22,5 +22,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ServicePayments\ServicePayments.csproj" />
+  </ItemGroup>
+
 
 </Project>

@@ -626,6 +626,16 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "ServicePayments/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ServicePayments.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServicePayments.dll": {}
+        }
       }
     }
   },
@@ -1981,6 +1991,11 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "ServicePayments/1.0.0": {
+      "type": "project",
+      "path": "../ServicePayments/ServicePayments.csproj",
+      "msbuildProject": "../ServicePayments/ServicePayments.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1991,7 +2006,8 @@
       "FluentValidation.AspNetCore >= 8.6.1",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
+      "ServicePayments >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2019,7 +2035,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\ServicePayments\\ServicePayments.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\CodingExercise\\ServicePayments\\ServicePayments.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

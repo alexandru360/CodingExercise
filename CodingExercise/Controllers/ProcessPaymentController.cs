@@ -39,7 +39,7 @@ namespace CodingExercise.Controllers
                 }
                 var p = _mapper.Map<ProcessPayment>(pmtModel);
                 _pmtServ.Create(p);
-                return Ok(p);
+                return Ok();
             }
             catch (Exception ex)
             {

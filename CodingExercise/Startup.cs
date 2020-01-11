@@ -41,18 +41,15 @@ namespace CodingExercise
             // Database config - SqLite
             services.AddDbContext<DataContext>(options => options.UseSqlite(confFile.AppConnSqLite));
 
-            services.AddControllers()
-                .AddFluentValidation(opt =>
-                    {
-                        opt.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-                    });
+            services.AddControllers().AddFluentValidation(opt =>
+                {
+                    opt.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+                });
 
             // Register processing gateway
             services.AddScoped<IPmtService, PmtService>();
-
-            services.AddScoped<ICheapPaymentGateway, CheapPaymentGateway>();
-            services.AddScoped<IExpensivePaymentGateway, ExpensivePaymentGateway>();
             services.AddScoped<IProcessPmtGateway, ProcessPmtGateway>();
+            services.AddScoped<IAbstractPmtFactory, AbstractPmtFactory>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
