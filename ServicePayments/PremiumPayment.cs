@@ -1,8 +1,8 @@
 ﻿using ServicePayments;
 
-namespace CodingExercise.AppLayer
+namespace ServicePayments
 {
-    public class PremiumPayment : IAbstractPmtGateway
+    public class PremiumPayment : IPremiumPayment
     {
         private int retry = 0;
         public bool ProcessPayment(decimal pmt)

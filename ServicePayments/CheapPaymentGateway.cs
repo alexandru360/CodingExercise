@@ -1,8 +1,8 @@
 ﻿using ServicePayments;
 
-namespace CodingExercise.AppLayer
+namespace ServicePayments
 {
-    public class CheapPaymentGateway : IAbstractPmtGateway
+    public class CheapPaymentGateway : ICheapPaymentGateway
     {
         public bool ProcessPayment(decimal pmt)
         {

@@ -1,6 +1,6 @@
-using CodingExercise.AppLayer;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
+using ServicePayments;
 
 namespace Tests
 {

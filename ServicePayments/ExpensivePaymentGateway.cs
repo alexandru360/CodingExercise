@@ -1,19 +1,12 @@
 ﻿using ServicePayments;
 
-namespace CodingExercise.AppLayer
+namespace ServicePayments
 {
-    public class ExpensivePaymentGateway : IAbstractPmtGateway
+    public class ExpensivePaymentGateway : IExpensivePaymentGateway
     {
-        private int retry = 0;
         public bool ProcessPayment(decimal pmt)
         {
-            var sendPmt = false;
-            while(retry <= 1 && !sendPmt)
-            {
-                sendPmt = TryProcessingPmt(pmt);
-                retry = retry + 1;
-            }
-            return sendPmt;
+            return TryProcessingPmt(pmt);
         }
 
         private bool TryProcessingPmt(decimal pmt)

@@ -1342,6 +1342,9 @@
         }
       },
       "ServicePayments/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "3.1.0"
+        },
         "runtime": {
           "ServicePayments.dll": {}
         }

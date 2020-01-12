@@ -1,6 +1,7 @@
 ﻿using CodingExercise.Domain;
 using CodingExercise.Infrastructure;
 using Microsoft.Extensions.Logging;
+using ServicePayments;
 using System;
 
 namespace CodingExercise.AppLayer
